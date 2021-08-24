@@ -30,6 +30,7 @@ const useFetch = (url) => {
                     }
                 })
         }, 1000)
+        // clean method 
         return () => {
             abortCont.abort()
         }
