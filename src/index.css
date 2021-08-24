@@ -48,3 +48,8 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
+
+/* remove the text decoration on blog details */
+.blog-preview a{
+  text-decoration: none;
+}
